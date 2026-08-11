@@ -48,4 +48,8 @@
   </a>
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=rbankole&style=flat-square&color=0F1689&label=Profile+Views" alt="Profile views" />
+</p>
+
 <img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0F1689&height=120&section=footer" alt="footer" />
