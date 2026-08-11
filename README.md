@@ -6,20 +6,20 @@
   </a>
 </p>
 
-- 🛠️ Principal DevOps Engineer — building GitOps-first delivery platforms on **EKS** & **OpenShift**
-- ☁️ Cloud-native by day: Kubernetes, ArgoCD, Helm, Terraform
-- 🔁 Obsessed with CI/CD that "just works" — GitHub Actions, self-hosted runners, Podman
-- 🌱 Learning: deeper Go tooling for internal platform CLIs
-- ⚡ Fun fact: I debug more YAML than actual code
+- Principal DevOps Engineer — building GitOps-first delivery platforms on **EKS** & **OpenShift**
+- Cloud-native by day: Kubernetes, ArgoCD, Helm, Terraform
+- Obsessed with CI/CD that "just works" — GitHub Actions, self-hosted runners, Podman
+- Learning: deeper Go tooling for internal platform CLIs
+- Fun fact: I debug more YAML than actual code
 
 ### What I'm doing right now
-- 🚀 Migrating container registries from Nexus to ECR org-wide
-- 🔐 Rolling out EKS Pod Identity to replace long-lived IAM credentials
-- 📊 Tracking DORA metrics across our delivery pipelines
+- Migrating container registries from Nexus to ECR org-wide
+- Rolling out EKS Pod Identity to replace long-lived IAM credentials
+- Tracking DORA metrics across our delivery pipelines
 
 <!--START_SECTION:live-->
-🕒 Last refreshed: 2026-08-11 18:58 UTC
-🔧 Recently active in: oluops/dripmatiq-web, rbankole/nanobot, rbankole/rbankole
+
+Recently active in: oluops/dripmatiq-web, rbankole/nanobot, rbankole/rbankole
 <!--END_SECTION:live-->
 
 <br>
