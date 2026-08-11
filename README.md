@@ -28,5 +28,5 @@
 
 <br>
 
-![GitHub stats](https://github-readme-stats.vercel.app/api?username=rbankole&show_icons=true&theme=default&hide_border=true)
+![GitHub stats](https://github-stats-extended.vercel.app/api?username=rbankole&show_icons=true&theme=default&hide_border=true)
 ![GitHub Streak](https://streak-stats.demolab.com?user=rbankole&theme=default&hide_border=true)
