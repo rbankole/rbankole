@@ -1,0 +1,40 @@
+name: Update README
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # daily 6am UTC
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch recent public activity
+        id: activity
+        run: |
+          repos=$(curl -s "https://api.github.com/users/rbankole/events/public?per_page=30" \
+            | jq -r '[.[] | select(.type=="PushEvent") | .repo.name] | unique | .[0:3] | join(", ")')
+          echo "repos=${repos:-no public activity in the last 30 events}" >> "$GITHUB_OUTPUT"
+
+      - name: Update live section
+        run: |
+          today=$(date -u +"%Y-%m-%d %H:%M UTC")
+          repos="${{ steps.activity.outputs.repos }}"
+          awk -v today="$today" -v repos="$repos" '
+            /<!--START_SECTION:live-->/ { print; print "🕒 Last refreshed: " today; print "🔧 Recently active in: " repos; skip=1; next }
+            /<!--END_SECTION:live-->/ { skip=0 }
+            !skip { print }
+          ' README.md > README.md.tmp && mv README.md.tmp README.md
+
+      - name: Commit changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git diff --cached --quiet || git commit -m "chore: refresh live profile stats"
+          git push
