@@ -12,7 +12,8 @@
 - 📊 Tracking DORA metrics across our delivery pipelines
 
 <!--START_SECTION:live-->
-🕒 Last refreshed: not yet run
+🕒 Last refreshed: 2026-08-11 18:58 UTC
+🔧 Recently active in: oluops/dripmatiq-web, rbankole/nanobot, rbankole/rbankole
 <!--END_SECTION:live-->
 
 <br>
