@@ -18,8 +18,8 @@
 - Tracking DORA metrics across our delivery pipelines
 
 <!--START_SECTION:live-->
-🕒 Last refreshed: 2026-09-21 11:21 UTC
-🔧 Recently active in: oluops/dripmatiq-web, rbankole/yet-another-cloudwatch-exporter
+🕒 Last refreshed: 2026-09-22 10:30 UTC
+🔧 Recently active in: no public activity in the last 30 events
 <!--END_SECTION:live-->
 
 <br>
