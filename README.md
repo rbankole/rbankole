@@ -18,8 +18,8 @@
 - Tracking DORA metrics across our delivery pipelines
 
 <!--START_SECTION:live-->
-🕒 Last refreshed: 2026-10-12 13:47 UTC
-🔧 Recently active in: oluops/dripmatiq-web
+🕒 Last refreshed: 2026-10-13 13:06 UTC
+🔧 Recently active in: oluops/dripmatiq-web, oluops/irdashies
 <!--END_SECTION:live-->
 
 <br>
